@@ -3,26 +3,29 @@ package core.basesyntax;
 /**
  * Feel free to remove this class and create your own.
  */
-public class Rectangle extends Figure{
+public class Rectangle extends Figure {
     private double height;
     private double width;
+
     public Rectangle(double length, double width, String color) {
         super(color);
         this.height = length;
         this.width = width;
     }
-    public double getHeight(){
+
+    public double getHeight() {
         return height;
     }
 
-    public double getWidth(){
+    public double getWidth() {
         return width;
     }
 
-    public void setHeight(double height){
+    public void setHeight(double height) {
         this.height = height;
     }
-    public void setWidth(double width){
+
+    public void setWidth(double width) {
         this.width = width;
     }
 

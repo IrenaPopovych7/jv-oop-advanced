@@ -1,7 +1,7 @@
 package core.basesyntax;
 
-
 public class IsoscelesTrapezoid extends Figure {
+
     private double baseA;
     private double baseB;
     private double height;
@@ -13,11 +13,11 @@ public class IsoscelesTrapezoid extends Figure {
         this.height = height;
     }
 
-    public double getBaseA(){
+    public double getBaseA() {
         return baseA;
     }
 
-    public double setBaseA(){
+    public double setBaseA() {
         return baseA;
     }
 
@@ -26,11 +26,11 @@ public class IsoscelesTrapezoid extends Figure {
         return (baseA + baseB) / 2 * height;
     }
 
-    public double getBaseB(){
+    public double getBaseB() {
         return baseB;
     }
 
-    public double getHeight(){
+    public double getHeight() {
         return height;
     }
 

@@ -1,25 +1,29 @@
 package core.basesyntax;
 
 public class RightTriangle extends Figure {
+
     private double base;
     private double height;
+
     public RightTriangle(double base, double height, String color) {
         super(color);
         this.base = base;
         this.height = height;
     }
-    public double getBase(){
+
+    public double getBase() {
         return base;
     }
 
-    public double getHeight(){
+    public double getHeight() {
         return height;
     }
 
-    public void setBase(double base){
+    public void setBase(double base) {
         this.base = base;
     }
-    public void setHeight(double height){
+
+    public void setHeight(double height) {
         this.height = height;
     }
 

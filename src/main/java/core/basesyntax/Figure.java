@@ -2,7 +2,7 @@ package core.basesyntax;
 
 public abstract class Figure implements Drawable {
 
-    public final String color;
+    private final String color;
 
     public Figure(String color) {
         this.color = color;
